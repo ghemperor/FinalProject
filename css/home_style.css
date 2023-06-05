@@ -222,3 +222,21 @@ body {
     left: 22%;
     font-size: 1.5rem;
 }
+
+.container2 {
+    position: relative;
+    /* display: flex; */
+    margin-top: -1%;
+}
+
+#img-big-skull {
+    margin-top: 10%;
+}
+#big-skull {
+    /* position: absolute; */
+    /* top: 7%; */
+    /* left: -5%; */
+    transform: rotate(25deg);
+    margin-top: -93%;
+    margin-left: -5%;
+}
