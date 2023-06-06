@@ -9,7 +9,7 @@ body {
 
 .container_front {
     position: relative;
-    margin-bottom: -34px;
+    /* margin-bottom: -34px; */
 }
 
 .container1 {
@@ -50,7 +50,7 @@ body {
 #not-merely {
     font-family: 'Chakra Petch', sans-serif;
     color: #FAECBF;
-    font-size: 376%;
+    font-size: 340%;
     font-weight: bolder;
     transform: scaleY(0.9);
     text-align: left;
@@ -66,15 +66,19 @@ body {
 #description {
     font-family: 'Chakra Petch', sans-serif;
     color: #FAECBF;
-    font-size: 159%;
+    font-size: 123%;
     text-align: left;
     margin-top: 70%;
     width: 55%;
 }
 
 .button-shop {
-    margin-right: 29%;
-    margin-top: 6%;
+    position: absolute;
+    /* margin-right: 29%; */
+    top: 83%;
+    left: 3%;
+    width: 64%;
+    /* margin-top: 6%; */
 }
 
 #shop-now {
@@ -87,10 +91,10 @@ body {
     display: inline-block;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
-    font-size: 143%;
-    width: 37%;
+    font-size: 119%;
+    width: 41%;
     height: 24%;
-    line-height: 191%;
+    line-height: 222%;
     list-style: none;
     margin: 0;
     outline: none;
@@ -115,7 +119,7 @@ body {
 
 .search-box {
     position: absolute;
-    top: 4%;
+    top: 3%;
     right: 0;
     margin-right: 13%;
 }
@@ -149,11 +153,14 @@ body {
 
 .logo-header {
     position: absolute;
-    margin-left: 12%;
+    margin-left: 10%;
+    /* margin-bottom: 36%; */
 }
 
 #logo-header {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    /* margin-bottom: 10%; */
+    padding-bottom: 88%;
 }
 
 .header-menu {
@@ -166,7 +173,7 @@ body {
     text-align: center;
     padding: 2.5% 14px;
     text-decoration: none;
-    font-size: 184%;
+    font-size: 160%;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     margin-left: 5%;
@@ -220,23 +227,139 @@ body {
     color: #FAECBF;
     line-height: 162%;
     left: 22%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .container2 {
     position: relative;
     /* display: flex; */
-    margin-top: -1%;
+    /* margin-top: -1%; */
 }
 
 #img-big-skull {
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 #big-skull {
     /* position: absolute; */
     /* top: 7%; */
     /* left: -5%; */
     transform: rotate(25deg);
-    margin-top: -93%;
+    margin-top: -86%;
     margin-left: -5%;
+    width: 57%;
+}
+
+#big-skull1 {
+    margin-top: -148%;
+    margin-left: 5%;
+    width: 36%;
+}
+
+#big-skull2 {
+    margin-top: -71%;
+    margin-left: 56%;
+    width: 39%;
+}
+
+#text-block {
+    width: 16%;
+    position: absolute;
+    top: 54%;
+    left: 34%;
+}
+
+#text-block1 {
+    width: 32%;
+    position: absolute;
+    top: 32%;
+    left: 57%;
+}
+
+#text-block2 {
+    width: 31%;
+    position: absolute;
+    top: 83%;
+    left: 57%;
+}
+
+
+#text-block p {
+    font-size: 120%;
+    font-family: 'Chakra Petch', sans-serif;
+    transform: scaleY(0.9);
+    line-height: 100%;
+    text-align: right;
+    /* font-weight: 600; */
+}
+
+#text-block1 p {
+    font-size: 120%;
+    font-family: 'Chakra Petch', sans-serif;
+    transform: scaleY(0.9);
+    line-height: 78%;
+    font-weight: 600;
+}
+
+#text-block2 p {
+    font-size: 120%;
+    font-family: 'Chakra Petch', sans-serif;
+    transform: scaleY(0.9);
+    line-height: 78%;
+    font-weight: 600;
+}
+
+
+
+#tb-l1 {
+    font-weight: bolder;
+}
+
+#tb-l2, #tb-l3, #tb-l4, #tb-l5, #tb-l6, #tb-l7, #tb-l8, #tb-l9 {
+    font-weight: 500;
+}
+
+.button-shop1 {
+    position: absolute;
+    top: 62%;
+    left: 39%;
+    width: 27%;
+}
+
+.container3 {
+    z-index: 1;
+    margin-top: -4%;
+    /* align-items: center; */
+    position: relative;
+    overflow: hidden;
+}
+
+#c3-tb1 {
+    /* margin-top: -24%; */
+    line-height: 97%;
+    z-index: 9;
+    position: absolute;
+    /* left: 28%; */
+    line-height: 143%;
+    left: 50%;
+    top: 9%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#c3-tb1 p {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #FAECBF;
+    font-weight: bold;
+    font-size: 122%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#c3-img1 {
+    filter: brightness(50%);
+}
+
+#c3-img2 {
+    transform: scale(0.16);
+    margin-top: -73%;
 }
